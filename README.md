@@ -2,7 +2,7 @@
 
 这个小东西整理自[微信官方支付sdk](https://pay.weixin.qq.com/wiki/doc/api/index.html),[下载地址](https://pay.weixin.qq.com/wiki/doc/api/native.php?chapter=11_1)
 
-＃ 使用方式：
+＃ 使用方式(#markdown-pane)：
 
 这东西造出来是放在laravel框架中的，但是感觉上就算不用框架也没问题，未测试。
 
@@ -87,7 +87,7 @@
       $refund_result = $wxpay->refund();
 ```
 
-查询退款结果。
+<a name="markdown-pane"></a>查询退款结果。
 
 ```
       $wxpay = app('wxpay');
